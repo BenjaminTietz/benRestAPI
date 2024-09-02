@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-sl&fs0)4!v4j3*jgz#93pi$hhcx416qdm(zbr1&01*=6j&ry3m
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['benRestAPI.pythonanywhere.com']
+ALLOWED_HOSTS = [
+    'benRestAPI.pythonanywhere.com',
+    'localhost',
+    '127.0.0.1'
+    ]
 
 
 # Application definition
